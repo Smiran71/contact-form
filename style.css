@@ -1,0 +1,101 @@
+.labels-simp{
+    display: block;
+    margin: 5px;
+}
+.line-1{
+    display: flex;
+    /* justify-content: center; */
+}
+.contact-us-form{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    /* text-align: center; */
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 70px;
+}
+.container{
+    margin: 10px;
+    /* padding: auto; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(148, 38%, 91%);
+}
+/* input{
+    margin: 5px;
+    height: 25px;
+    width: 200px;
+} */
+.email-input{
+    width: 420px;
+    height: 20px ;
+}
+label{
+    font-size: 16px;
+}
+#radio-btns{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box{
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+  
+    /* margin: auto; */
+}
+.text{
+    height: 20px;
+    width: 200px;
+}
+ /* .msg-box{
+    width: 420px;
+    height: 70px;
+ } */
+.form-item{
+    margin: 15px;
+}
+.line-5{
+    margin: 15px;
+}
+.btn{
+    width: 420px;
+    height: 30px;
+    background-color: hsl(169, 82%, 27%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color:hsl(169, 58%, 14%) ;
+}
+.alert{
+    display: none;
+    color: hsl(0, 66%, 54%);
+}
+.star{
+    color: hsl(187, 24%, 22%);
+}
+.red-border{
+    border-color:hsl(0, 66%, 54%) ;
+}
+.success-msg{
+    background-color:  hsl(169, 58%, 14%) ;
+    height: auto;
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    top: 30px;
+    left: 32%;
+    opacity: 0.9;
+    display: none;
+}
+input:hover{
+    border: hsl(187, 24%, 22%);
+}

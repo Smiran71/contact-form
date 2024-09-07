@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <div class="contact-us-form">
+        <div class="container">
+        <form action="">
+        <h1>Contact Us</h1>
+        <div class="line-1">
+            <div class="form-item">
+                <label class="labels-simp" for="input-name">First Name <span class="star">*</span></label>
+                <input class="text " type="text" name="firstname" id="input-firstname">
+                <p class="firstname-alert red alert">This field is required</p>
+            </div>
+           
+            <div class="form-item">
+                <label class="labels-simp" for="input-name">Last Name <span class="star">*</span></label>
+                <input class="text" type="text" name="lastname" id="input-lastname" class="">
+                <p class="lastname-alert red alert">This field is required</p>
+            </div>
+        </div>
+
+        <div class="line-2">
+            <div class="form-item">
+                <label class="labels-simp" for="email">Email Address <span class="star">*</span></label>
+                <input type="email" id="email" class="email-input">
+            <p class="email-alert alert red">Enter valid email address</p>
+
+            </div>
+        </div>
+        <div class="line3">
+           <div class="form-item ">
+            <label class="labels-simp" for="radio-btns ">Query Type <span class="star">*</span></label>
+              <div id="radio-btns">
+                  <div class="box">
+            <input type="radio" name="option" value="General" id="radio-btn1">
+            <label class="label-opt" for="radio-btn1">General Enquiry</label>
+                  </div>
+        <div class="box">
+            <input type="radio" name="option" value="Request" id="radio-btn2">
+            <label class="label-opt" for="radio-btn1">Support Request</label>
+        </div>
+               </div>  
+               <p class="radio-alert alert red-border">Select a query type</p>
+            </div>
+        </div>
+         <div class="line4">
+            <div class="form-item">
+                <label for="messages" class="labels-simp">Message <span class="star">*</span></label>
+               <!-- <input type="text" name="" id="messages" class="msg-box"> -->
+                <textarea name="" id="messages" rows="4" cols="53"></textarea>
+                <p class="message-alert alert red-border ">This field is required</p>
+            </div>
+           
+         </div>
+         <div class="line-5">
+            <div class="form-item">
+                <input type="checkbox" name="consent" id="chk-box">
+                <label for="chk-box">I consent to being contacted by the team. <span class="star">*</span></label>
+            </div>
+            <p class="consent-alert red alert">To submit this form, please consent to being contacted</p>
+         </div>
+         <div class="form-item">
+            <button type="submit" class="btn">Submit</button>
+         </div>
+        
+            
+         </div>
+        </form>
+        <div class="success-msg">
+            <div class="header">
+                <img src="icon-success-check.svg" alt="" >
+                <h2 style="display: inline;">Message sent!</h2>
+            </div>
+           
+            <p>Thank you for completing the form. we will contact you soon.</p>
+        </div>
+           
+    </div>
+   
+</div>
+
+    <script src="script.js"></script>
+    <script src=""></script>
+</body>
+</html>
